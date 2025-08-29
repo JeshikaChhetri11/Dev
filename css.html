@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS3 Development</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+
+<!-- Header -->
+<header>
+  <div class="logo">Port<span>Folio</span></div>
+  <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fullstack.html">Full Stack</a></li>
+      <li><a href="HTML.html">Html</a></li>
+      <li><a href="css.html">Css</a></li>
+      <li><a href="bootstrap.html">BootStrap</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+
+
+
+
+
+ 
+
+  <!-- Skills & Techniques Box -->
+  <section class="boxes-section">
+    <h2>CSS3 Skills & Techniques</h2>
+    <div class="boxes-container">
+      <div class="box">
+        <h3>Responsive Design</h3>
+        <ul>
+          <li>Mobile-first approach</li>
+          <li>Flexible grid systems</li>
+          <li>Media queries & breakpoints</li>
+          <li>Viewport optimization</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Flexbox & Grid</h3>
+        <ul>
+          <li>Flexbox for one-dimensional layouts</li>
+          <li>CSS Grid for two-dimensional layouts</li>
+          <li>Alignment and spacing control</li>
+          <li>Responsive patterns for dashboards & pages</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Animations & Transitions</h3>
+        <ul>
+          <li>Keyframe animations</li>
+          <li>Transition effects on hover</li>
+          <li>Transform & scale effects</li>
+          <li>Performance optimized interactions</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Custom Properties & Variables</h3>
+        <ul>
+          <li>CSS variables for maintainable styles</li>
+          <li>Dynamic theming (dark/light)</li>
+          <li>Color palette & spacing management</li>
+          <li>Consistent design systems</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flexbox Example & Code Box -->
+  <section class="boxes-section">
+    <h2>CSS3 Flexbox Example & Code</h2>
+    <div class="boxes-container">
+      <div class="box">
+        <h3>Flexbox Layout Example</h3>
+        <div class="flex-container">
+          <div class="flex-item">Flex Item 1<br><small>This item grows</small></div>
+          <div class="flex-item">Flex Item 2<br><small>Equal flexibility</small></div>
+          <div class="flex-item">Flex Item 3<br><small>Responsive design</small></div>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Flexbox CSS Code</h3>
+        <pre>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(to right, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2));
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.flex-item {
+  flex: 1;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flex-item:hover {
+  transform: translateY(-4px) scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+        </pre>
+      </div>
+    </div>
+  </section>
+
+  <footer class="css3-footer">
+    <h2>CSS3 Mastery</h2>
+    <ul>
+      <li>Responsive & Mobile-First Design</li>
+      <li>Interactive Animations & Effects</li>
+      <li>Flexbox & Grid Layouts</li>
+      <li>Modern CSS3 Features & Variables</li>
+    </ul>
+  </footer>
+</body>
+</html>
